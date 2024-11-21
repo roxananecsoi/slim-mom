@@ -3,8 +3,8 @@ import { useNavigate, useLocation } from 'react-router-dom';
 import styles from './LoginPage.module.css';
 import Button from 'components/Button/Button';
 import Header from 'components/Header/Header';
-import { login } from '../../api/auth.js';
-import { AuthContext } from '../../context/AuthContext.js';
+import { login } from 'api/auth';
+import { AuthContext } from 'context/AuthContext';
 
 const LoginPage = () => {
   const [email, setEmail] = useState('');

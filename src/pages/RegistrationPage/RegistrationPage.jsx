@@ -3,8 +3,8 @@ import { useNavigate } from 'react-router-dom';
 import styles from './RegistrationPage.module.css';
 import Button from 'components/Button/Button';
 import Header from 'components/Header/Header';
-import { register } from '../../api/auth';
-import { AuthContext } from '../../context/AuthContext';
+import { register } from 'api/auth';
+import { AuthContext } from 'context/AuthContext';
 
 const RegistrationPage = () => {
   const [name, setName] = useState('');
